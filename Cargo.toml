@@ -1,0 +1,18 @@
+[package]
+name = "esp32c3-direct-boot-rt"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+keywords = [
+	"no-std",
+	"esp32-c3",
+	"embedded",
+]
+categories = [
+    "embedded",
+    "hardware-support",
+    "no-std",
+]
+
+[dependencies]
+riscv = "^0.7"
